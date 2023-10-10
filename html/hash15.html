@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/hashDark.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <style>
+        body {
+          animation: fadeInAnimation ease 1s;
+          animation-iteration-count: 1;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes fadeInAnimation {
+          0% {
+              opacity: 0;
+          }
+          100% {
+              opacity: 1;
+          }
+      }
+    </style>
+  </head>
+
+  <body>
+    <audio autoplay>
+      <source src="../media/audio/windowsding.mp3" type="audio/mp3">
+  
+    </audio>
+    <canvas id="canvas"></canvas>
+    <script src="sketch.js"></script>
+
+    <div class="container">
+        <div class="decoration">
+            <div class="exit-button">
+                <img src="../media/images/exit button tab.png" alt="Exit">
+            </div>
+        </div>
+        <h2>Welcome to the Chatroom!</h2>
+        <div class="chat-box">
+            <div class="message-container">
+              <div class="recievedMessage">
+                <h3>From Hashbrown: </h3> 
+                No, it happened before.
+                <h3>From Hashbrown: </h3>
+Remember in junior year of high school?
+<h3>From Hashbrown: </h3>
+But my family was there that time
+<h3>From Hashbrown: </h3>
+I don’t wanna cause a fuss.
+              </div>
+              
+              <div class="msgInput">Think before you speak.</div>
+              <a href="../html/you15.html"><button class="sendButton">s e n d</button></a>
+          </div>
+
+        </div>
+    </div>
+  </body>
+</html>

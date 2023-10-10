@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/you.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <style>
+        body {
+          animation: fadeInAnimation ease 1s;
+          animation-iteration-count: 1;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes fadeInAnimation {
+          0% {
+              opacity: 0;
+          }
+          100% {
+              opacity: 1;
+          }
+      }
+    </style>
+  </head>
+
+  <body>
+    <audio autoplay>
+      <source src="../media/audio/sendDing.mp3" type="audio/mp3">
+  
+    </audio>
+    <canvas id="canvas"></canvas>
+    <script src="sketch.js"></script>
+
+    <div class="container">
+        <div class="decoration">
+            <div class="exit-button">
+                <img src="../media/images/exit button tab.png" alt="Exit">
+            </div>
+        </div>
+        <h2>Welcome to the Chatroom!</h2>
+        <div class="chat-box">
+            <div class="message-container">
+              <div class="recievedMessage">
+                <h3>From You: </h3> 
+                those are all fake for views #clickbait
+                <h3>From You: </h3>
+                you’ll be fine.              
+              </div>
+              <div class="msgInput">Think before you speak.</div>
+              <a href="../html/hash10.html"><button class="sendButton">s e n d</button></a>
+          </div>
+
+        </div>
+    </div>
+  </body>
+</html>

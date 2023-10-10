@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/theCallYou.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <style>
+        body {
+          animation: fadeInAnimation ease 1s;
+          animation-iteration-count: 1;
+          animation-fill-mode: forwards;
+      }
+      
+      @keyframes fadeInAnimation {
+          0% {
+              opacity: 0;
+          }
+          100% {
+              opacity: 1;
+          }
+      }
+    </style>
+  </head>
+
+  <body>
+    <audio autoplay>
+      <source src="../media/audio/night.mp3" type="audio/mp3">
+    </audio>
+    <canvas id="canvas"></canvas>
+    <script src="sketch.js"></script>
+
+    <div class="container">
+        <div class="decoration">
+            
+        </div>
+        <div class="user-image">
+          <img class="axol" src="../media/images/axol.jpg" alt="User Profile Picture">
+      </div>
+        <h2>Calling Hashton...</h2>
+        <div class="chat-box">
+            <div class="message-container">
+              <div class="recievedMessage">
+                  <img class="wave" src="../media/images/giphy.gif">
+              </div>
+              
+              
+              <a href="../html/end.html"><button class="sendButton">✆</button></a>
+          </div>
+
+        </div>
+    </div>
+    <div class="youText"><h1>You: <br><p>Then who was-</p></h1></div>
+  </body>
+</html>

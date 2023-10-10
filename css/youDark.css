@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@700&family=Gloock&family=Pixelify+Sans&display=swap');
+
+@font-face{
+    font-family: pixelify;
+    src: url("../media/fonts/PixelifySans-VariableFont_wght.ttf")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.recievedMessage{
+    text-align:left;
+    color:#232d9e;
+    font-family: "pixelify", sans-serif;
+    background-color:#ffffff00;
+    height:70px;
+    padding-left:5px;
+    padding-top:5px;
+}
+
+button{
+    display:inline-block;
+    color:white;
+    height:41px;
+    width:130px;
+    background-color:#252560;
+    border-style: groove;
+    border-color:white;
+    margin:auto;
+    margin-top:3px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../media/images/starry.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.exit-button img {
+    width: 100%;
+    height: auto;
+}
+
+.exit-button {
+    width: 20px; 
+    height: 20px;
+    background-color: #ccc;
+    position: absolute;
+    top: 50%; 
+    right: 10px; 
+    transform: translate(0%, -50%);
+    border-style: groove;
+}
+
+.decoration {
+    background: linear-gradient(to right, #0000FF, #000080);
+    height: 35px;
+    width:100%;
+    position: relative;
+    border-right-style:groove;
+    border-left-style:groove;
+    border-top-style:groove;  
+}
+
+.close-button {
+    display:inline-block;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.despair{
+    width:200px;
+    display:block;
+}
+
+p{
+    font-size:12px;
+    color:gray;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+    justify-content:center;
+    background-color: rgb(210, 208, 208);
+    padding:1px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left:15%;
+    margin-right:15%;
+    height:500px;
+    border-style:groove; 
+    margin-top:-8%; 
+}
+
+video{
+    display:block;
+    margin-left:-8%;
+}
+
+.msgInput10{
+    margin-left:100px;
+    margin-bottom:10%;
+}
+
+.msgInput{
+background-color: white;
+height:40px;
+padding-top:9px;
+margin-left:-10px;
+margin-top:34%;
+width:400px;
+color:#00000061;
+border-style:groove;
+display:inline-block;
+}
+
+.login-box {
+    max-width: 600px;
+    margin: 0; 
+    border-right-style:groove;
+    border-left-style:groove;
+    border-bottom-style:groove;
+}
+
+
+h2 {
+    font-family: "pixelify", sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.catsmug{
+    display:block;
+}
+
+.chat-box {
+    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgb(255, 255, 255);
+    height:300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+}
+
+
+.input-container {
+    display: flex;
+    padding:3px;
+    background-color: white; 
+    margin-bottom:5%;
+    padding-top:10px;
+    bottom:0;
+    width: 100%;
+}
+
+#message-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+

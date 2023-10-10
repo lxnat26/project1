@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@700&family=Gloock&family=Pixelify+Sans&display=swap');
+
+@font-face{
+    font-family: pixelify;
+    src: url("../media/fonts/PixelifySans-VariableFont_wght.ttf")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('');
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+p.hash {
+    text-align: left;
+}
+
+p.you {
+    text-align: right;
+}
+
+p.time {
+    text-align: right;
+}
+    
